@@ -1081,12 +1081,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Gestion dynamique du formulaire de paiement
     // --- Paiement suisse simulé ---
     let paymentStatus = 'pending';
-    const paymentMethods = [
-      { label: 'Payer avec Twint', color: '#e67c00' },
-      { label: 'Payer par QR-facture', color: '#4285f4' },
-      { label: 'IBAN', color: '#222' },
-      { label: 'Payer par carte de crédit', color: '#34a853' }
-    ];
     const paymentDiv = document.createElement('div');
     // Ajout dynamique à l'étape 4 — sous la carte de résumé
     const step4 = document.querySelector('.lw-step-content#step4');
